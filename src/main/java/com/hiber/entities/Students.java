@@ -14,8 +14,24 @@ public class Students {
 	private int sid;
 	private String name;
 	private String city;
+	private Certificates certi;
 	
 	
+	
+	
+	public Students(Certificates certi) {
+		super();
+		this.certi = certi;
+	}
+	
+	public Certificates getCerti() {
+		return certi;
+	}
+
+	public void setCerti(Certificates certi) {
+		this.certi = certi;
+	}
+
 	public int getSid() {
 		return sid;
 	}
